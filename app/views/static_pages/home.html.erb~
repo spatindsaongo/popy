@@ -1,0 +1,14 @@
+<% provide(:title, 'Home')%>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Popy | <%= yield(:title) %></title>
+</head>
+<body>
+<h1>Popy App</h1>
+  <p>Ceci est la page d'accueil de l'application 
+    <a href="http://secret-river-9267.herokuapp.com/">Popy App</a>
+  Exemple d'application
+</p>
+</body>
+</html>

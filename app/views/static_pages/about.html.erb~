@@ -1,0 +1,12 @@
+<% provide(:title, 'About Us')%>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Popy | <%= yield(:title) %></title>
+</head>
+<body>
+<h1>About Us</h1>
+<p> L'application Popy App vise à apprendre comment programmer une application web de qualité avec Ruby on Rails
+</p>
+</body>
+</html>

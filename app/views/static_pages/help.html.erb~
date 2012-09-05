@@ -1,0 +1,13 @@
+<% provide(:title, 'Help')%>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Popy | <%= yield(:title) %></title>
+</head>
+<body>
+<h1>Help</h1>
+  <p>Obtenir l'aide sur l'application à ce
+    <a href="http://railstutorial.org/help">lien</a>
+  </p>
+</body>
+</html>
